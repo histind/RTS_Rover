@@ -1,0 +1,7 @@
+wake control android
+command structure
+	"search"
+	"go to" -address
+	"add destination" -address 'POI'
+	
+	

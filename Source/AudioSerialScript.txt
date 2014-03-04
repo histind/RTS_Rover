@@ -1,0 +1,17 @@
+am start -a android.intent.action.MAIN -n re.serialout/re.serialout.AudioSerialOutDemo
+
+am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA String_to_send -e BAUD 9600
+
+am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA String_to_send
+	
+	am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA --shell text
+
+	am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA _SINGLE_LETTER_COMMANDS
+	
+	am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA _w
+	
+	am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA locate
+
+am start -a android.intent.action.MAIN -n re.serialout/re.serialout.Output -e DATA 
+
+pidof re.serialout
